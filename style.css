@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f6;
+}
+
+/* Header */
+.header {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 2px;
+    border: none;
+}
+
+.login-btn {
+    background-color: white;
+    color: #2874f0;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-color: #ffe11b;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Products */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card button {
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Footer */
+.footer {
+    background-color: #172337;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
